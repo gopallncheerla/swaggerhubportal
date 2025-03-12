@@ -1,13 +1,13 @@
 {
     "productMetadata": {
-        "description": "This product gives the ability to programmatically embedded a Pet adoption workflow into your application ",
+        "description": "This product gives the ability to programmatically embedded a Pet adoption workflow into your application 🐶",
         "slug": "pet-adoptions",
         "public": true,
         "hidden": false,
-        "logo": "",
+        "logo": "images/AdoptionsAPI.png",
         "logoDark": "",
         "autoPublish": true,
-        "validateAPIs": false
+        "validateAPIs": true
     },
     "contentMetadata": [
         {
@@ -20,11 +20,35 @@
         },
         {
             "order": 1,
+            "parent": "getting-started-with-pet-adoptions",
+            "name": "Client Code (C#)",
+            "slug": "client-code-csharp",
+            "type": "markdown",
+            "contentUrl": "Client-Code-Csharp.md"
+        },
+        {
+            "order": 2,
+            "parent": "getting-started-with-pet-adoptions",
+            "name": "Client Code (Typescript)",
+            "slug": "client-code-typescript",
+            "type": "markdown",
+            "contentUrl": "Client-Code-Typescript.md"
+        },
+        {
+            "order": 5,
             "parent": "",
             "name": "Pets API",
             "type": "apiUrl",
             "slug": "Pets",
-            "contentUrl": "https://api.swaggerhub.com/apis/ministryofsocialdeve/swagger-petstore_open_api_3_0/1.0.20/swagger.json"
+            "contentUrl": "https://api.swaggerhub.com/apis/frank-kilcommins/Pets/1.0.0/swagger.json"
+        },
+        {
+            "order": 6,
+            "parent": "",
+            "name": "Adoptions API",
+            "type": "apiUrl",
+            "slug": "Adoptions",
+            "contentUrl": "https://api.swaggerhub.com/apis/frank-kilcommins/Adoptions/1.0.0/swagger.json"
         }
     ]
 }
