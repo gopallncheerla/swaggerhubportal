@@ -33,12 +33,6 @@ Here's a breakdown of the steps you'll carry out to integrate this capability in
 | 5️⃣ | confirmPetStatusStep  | Confirm the pet status update to `adopted`      | `petsApiDescription.getPetById`                       | petId, token              | `$statusCode == 200`, `adopted `status | adoptedPetName, adoptedPetStatus, adoptedPetId, adoptedPetLocation |
 
 
-### Graphical Representation of Workflow Steps
-
-![Arazzo-PlantUML.png](./images/embedded/Arazzo-PlantUML.png) 
-
-![Arazzo-Mermaid.png](./images/embedded/Arazzo-Mermaid.png)
-
 ### Developer Integration Guidance
 
 Developers integrating this workflow should note:
