@@ -1,10 +1,10 @@
 {
     "productMetadata": {
-        "description": "This product gives the ability to programmatically embedded a Pet adoption workflow into your application 🐶",
+        "description": "This product gives the ability to programmatically embedded a Pet adoption workflow into your application ",
         "slug": "pet-adoptions",
         "public": true,
         "hidden": false,
-        "logo": "images/AdoptionsAPI.png",
+        "logo": "",
         "logoDark": "",
         "autoPublish": true,
         "validateAPIs": false
@@ -20,22 +20,6 @@
         },
         {
             "order": 1,
-            "parent": "getting-started-with-pet-adoptions",
-            "name": "Client Code (C#)",
-            "slug": "client-code-csharp",
-            "type": "markdown",
-            "contentUrl": "Client-Code-Csharp.md"
-        },
-        {
-            "order": 2,
-            "parent": "getting-started-with-pet-adoptions",
-            "name": "Client Code (Typescript)",
-            "slug": "client-code-typescript",
-            "type": "markdown",
-            "contentUrl": "Client-Code-Typescript.md"
-        },
-        {
-            "order": 3,
             "parent": "",
             "name": "Pets API",
             "type": "apiUrl",
